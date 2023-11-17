@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>sample01_3_1.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #cc7832;}
+.s3 { color: #6897bb;}
+.s4 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+sample01_3_1.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># coding: utf-8</span>
+
+<span class="s0"># 乱数機能の利用</span>
+<span class="s2">import </span><span class="s1">random</span>
+
+<span class="s0"># 0～2の乱数を発生させる</span>
+<span class="s0"># 発生した乱数を変数fortuneに代入する</span>
+<span class="s1">fortune = random.randint(</span><span class="s3">0</span><span class="s2">, </span><span class="s3">6</span><span class="s1">)</span>
+
+<span class="s0"># 変数の値（発生した乱数）に応じて大吉、中吉、小吉を表示</span>
+<span class="s2">if </span><span class="s1">fortune == </span><span class="s3">0</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">'大吉'</span><span class="s1">)</span>
+<span class="s2">elif </span><span class="s1">fortune == </span><span class="s3">1</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">'中吉'</span><span class="s1">)</span>
+<span class="s2">elif </span><span class="s1">fortune == </span><span class="s3">2</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">'小吉'</span><span class="s1">)</span>
+<span class="s2">elif </span><span class="s1">fortune == </span><span class="s3">3</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">'凶'</span><span class="s1">)</span>
+<span class="s2">elif </span><span class="s1">fortune == </span><span class="s3">4</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">'大凶'</span><span class="s1">)</span>
+<span class="s2">elif </span><span class="s1">fortune == </span><span class="s3">5</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">'大大吉'</span><span class="s1">)</span>
+<span class="s2">elif </span><span class="s1">fortune == </span><span class="s3">6</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">'大大凶'</span><span class="s1">)</span></pre>
+</body>
+</html>
